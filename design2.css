@@ -1788,7 +1788,7 @@ nav ul li a:hover::after {
   .heading {
     font-size: 1.4rem;
     margin-left: 129px;
-   margin-top: 23px;
+   margin-top: 50px;
     animation: fadeIn 2s ease-in-out, float 3s ease-in-out infinite;
 
   }
