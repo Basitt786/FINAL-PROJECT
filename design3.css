@@ -868,11 +868,23 @@ nav ul li a:hover::after {
     box-sizing: border-box;
     overflow-x: hidden;
   }
-
- 
-
 } 
 
+@media (max-width:425px) {
+  .intro-heading {
+    font-size: 45px; 
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+  }
+}
+
+@media (max-width:375px) {
+  .intro-heading {
+    font-size: 40px; 
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+  }
+}
 
 
 @media (max-width:320px) {
@@ -884,7 +896,7 @@ nav ul li a:hover::after {
     padding: 0 15px;
   }
   .intro-heading {
-    font-size: 2rem; 
+    font-size:36px; 
     margin-bottom: 15px;
     padding-bottom: 10px;
   }
